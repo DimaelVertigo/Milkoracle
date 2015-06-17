@@ -1,0 +1,94 @@
+/*
+Error: Undefined mixin 'transition'.
+        on line 113 of /Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/milkoracle/less/peak.scss, in `transition'
+        from line 113 of /Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/milkoracle/less/peak.scss
+
+108: 			$w: 652px;
+109: 			$h: 78px;
+110: 			@include a($w, $h);
+111: 			font-weight: 200;
+112: 			color: #BABABA;
+113: 			@include transition(all 2s cubic-bezier(.21,1,.84,1.01) );
+114: 			&:before, &:after{
+115: 				color: #000;
+116: 				font-weight: 900;
+117: 				font-size: 30px;
+118: 				text-transform: none;
+
+Backtrace:
+/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/milkoracle/less/peak.scss:113:in `transition'
+/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/milkoracle/less/peak.scss:113
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:348:in `visit_mixin'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/stack.rb:98:in `with_mixin'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/stack.rb:98:in `with_mixin'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/base.rb:36:in `send'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:430:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/base.rb:36:in `send'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:430:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/base.rb:36:in `send'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:430:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/base.rb:36:in `send'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:167:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/base.rb:36:in `send'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:8:in `send'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/tree/root_node.rb:20:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/engine.rb:268:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/exec/sass_scss.rb:415:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/../lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'transition'.\A         on line 113 of /Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/milkoracle/less/peak.scss, in `transition'\A         from line 113 of /Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/milkoracle/less/peak.scss\A \A 108: 			$w: 652px;\A 109: 			$h: 78px;\A 110: 			@include a($w, $h);\A 111: 			font-weight: 200;\A 112: 			color: #BABABA;\A 113: 			@include transition(all 2s cubic-bezier(.21,1,.84,1.01) );\A 114: 			&:before, &:after{\A 115: 				color: #000;\A 116: 				font-weight: 900;\A 117: 				font-size: 30px;\A 118: 				text-transform: none;"; }

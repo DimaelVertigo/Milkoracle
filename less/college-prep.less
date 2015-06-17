@@ -1,0 +1,45 @@
+.college-prep {
+	.top-post {
+		margin-top: 70px;
+		a {
+		    color: @c-main;
+			&:hover, &:focus {
+			    text-decoration: none;
+			    color: @c-main;
+			}
+			h3 {
+				margin: 15px 0;
+			}
+		}
+	}
+	h3 {
+		line-height: 20px;
+		text-align: left;
+	}
+	article {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		overflow: hidden;
+		padding: 0;
+		height: 431px;
+		@media (max-width: 768px) {
+			height: auto;
+		}
+		
+		&:hover, &:focus {
+		    .post-img {
+		    	-webkit-filter: grayscale(1);
+		    }
+		    img {
+		    	transform: scale(1.1);
+		    }
+		}
+	}
+	.post-img {
+		overflow: hidden;
+	    .slow;
+		img {
+			transition: all 1s ease-out;
+		}
+	}
+}

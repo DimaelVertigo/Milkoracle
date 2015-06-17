@@ -1,0 +1,45 @@
+/*===================================
+=            ASK US Page            =
+===================================*/
+.page-ask {
+	padding-right: 0!important;
+}
+.ask-link {
+	// width: 600px;
+	height: 328px;
+	display: table;
+	position: relative;
+	&::before {
+	    content: '';
+	    display: block;
+	    position: absolute;
+	    width: 600px;
+	    height: 328px;
+		top: 0;
+		left: 0;
+		.slow;
+	}
+	&:hover, &:focus {
+	    text-decoration: none;
+	    &::before {
+		    background-color: rgba(121,200,221,.42);
+	    }
+	}
+	span {
+		color: #fff;
+		text-transform: uppercase;
+		font: 44px/44px @ff-m;
+		padding-left: 88px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+.ask-link-1 {
+	background: url(img/ask1.jpg) center no-repeat;
+	background-size: cover;
+}
+.ask-link-2 {
+	background: url(img/ask2.jpg) center no-repeat;
+	background-size: cover;
+}
+/*-----  End of ASK US Page  ------*/

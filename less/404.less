@@ -1,0 +1,49 @@
+.page-404 {
+	.page-name {
+		color: @c-link;
+		font: 169px @ff-m;
+		text-align: center;
+		@media (max-width: 469px) {
+			font: 114px @ff-m;
+		}
+	}
+	.page-desc {
+		padding-top: 70px;
+		font: 18px @ff-m;
+		text-transform: uppercase;
+		@media (max-width: 1199px) {
+			text-align: center;
+		}
+	}
+	.page-logo {
+		padding-top: 50px;
+		a {
+			display: block;
+			background: url(img/404-logo.png) center no-repeat;
+			width: 155px;
+			height: 74px;
+			@media
+				only screen and (-webkit-min-device-pixel-ratio: 2),
+				only screen and (   min--moz-device-pixel-ratio: 2),
+				only screen and (     -o-min-device-pixel-ratio: 2/1),
+				only screen and (        min-device-pixel-ratio: 2),
+				only screen and (                min-resolution: 192dpi),
+				only screen and (                min-resolution: 2dppx) {
+					background: url(img/404-logo@2x.png) center no-repeat;
+					background-size: 155px 74px;
+			}
+			@media (max-width: 1199px) {
+				width: 100%;
+			}
+		}
+	}
+	.featured-articles {
+		opacity: 1;
+	}
+	@media (max-width: 469px) {
+		h3 {
+			line-height: 26px;
+			margin: 50px 0;
+		}
+	}
+}

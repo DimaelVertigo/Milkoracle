@@ -1,0 +1,48 @@
+//
+// Jumbotron
+// --------------------------------------------------
+
+
+.jumbotron {
+    position: relative;
+    height: 750px;
+    background: url(img/jumbotron.jpg) no-repeat 50% bottom;
+    &-inners {
+        height: 390px;
+    }
+    h1, .h1 {
+        padding-top: 60px;
+        color: #fff;
+        text-align: center;
+        line-height: 57px;
+        font-family: 'Open Sans';
+        text-transform: uppercase;
+        @media (max-width: 479px) {
+            font-size: 35px;
+        }
+        @media (min-width: 1200px) {
+            font-size: 62px;
+        }
+    }
+    a {
+        color: #fff;
+        text-align: center;
+        line-height: 57px;
+        font-family: 'Open Sans';
+    }
+    @media screen and (min-width:@screen-sm-min) {
+        padding: (@jumbotron-padding * 1.6) 0;
+
+        .container &, .container-fluid & {
+            padding-left: (@jumbotron-padding * 2);
+            padding-right: (@jumbotron-padding * 2);
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .jumbotron-left,
+    .jumbotron-right {
+        width: 50%;
+        float: right;
+    }
+}

@@ -1,0 +1,80 @@
+Searching 221 files for "col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-0"
+
+/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/milkoracle/archive.php:
+   10  get_header(); ?>
+   11  
+   12: 	<div id="primary" class="content-area col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-0">
+   13  		<main id="main" class="site-main" role="main">
+   14  		<?php if ( have_posts() ) : ?>
+
+/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/milkoracle/author.php:
+    9  
+   10  get_header(); ?>
+   11: 	<div id="primary" class="content-area col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-0 tag-list">
+   12  		<main id="main" class="site-main row" role="main">
+   13  		<?php if ( have_posts() ) : ?>
+
+/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/milkoracle/content-none.php:
+    8   */
+    9  ?>
+   10: <div class="content-area col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-0">
+   11  <section class="no-results not-found">
+   12  	<header class="page-header">
+
+/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/milkoracle/content-page.php:
+    6   */
+    7  ?>
+    8: <div class="content-area col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-0">
+    9  	<article id="post-<?php the_ID(); ?>
+   10  		"
+
+/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/milkoracle/content-single.php:
+    4   */
+    5  ?>
+    6: <div class="content-area col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-0">
+    7  	<main>
+    8  		<article id="post-<?php the_ID(); ?>">
+
+/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/milkoracle/index.php:
+   14  get_header(); ?>
+   15  
+   16: 	<div id="primary" class="content-area col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-0">
+   17  		<main id="main" class="site-main" role="main">
+   18  
+
+/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/milkoracle/page-about.php:
+   14  
+   15  		<main>
+   16: 			<div class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-0 page-about content-area">
+   17  				<section class="row aboutus-1">
+   18  					<h2>About us</h2>
+
+/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/milkoracle/page-question.php:
+   13  get_header(); ?>
+   14  <main>
+   15: 	<div class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-0 page-question content-area">
+   16  		<div class="row"><h2>QUESTION OF THE WEEK</h2></div>
+   17  		<?php while ( have_posts() ) : the_post(); ?>
+
+/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/milkoracle/page-search.php:
+    8  get_header(); ?>
+    9  
+   10: 	<section id="primary" class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-0 search-list">
+   11  		<main id="main" class="site-main" role="main">
+   12  		<h1>f</h1>
+
+/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/milkoracle/search.php:
+    8  get_header(); ?>
+    9  
+   10: 	<section id="primary" class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-0 search-list content-area">
+   11  		<main id="main" class="site-main" role="main">
+   12  
+
+/Applications/MAMP/htdocs/wordpress.local/public_html/wp-content/themes/milkoracle/tag.php:
+   10  get_header(); ?>
+   11  
+   12: 	<div id="primary" class="content-area col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-0 tag-list">
+   13  		<main id="main" class="site-main row" role="main">
+   14  		<?php if ( have_posts() ) : ?>
+
+11 matches across 11 files

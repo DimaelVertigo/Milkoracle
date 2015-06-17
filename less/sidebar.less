@@ -1,0 +1,177 @@
+.sidebar {
+	margin-top: 80px;
+	@media (min-width: 992px) {
+		padding: 0 0 70px 50px;
+	}
+	@media (min-width: 1200px) {
+		border-left: 1px solid @c-border;
+	}
+}
+#tab-triggers {
+	width: 100%;
+	margin-bottom: 45px;
+	text-align: center;
+	li {
+		float: left;
+		color: #b9b9b9;
+		font: 20px @ff-r;
+		text-transform: uppercase;
+		border-bottom: 1px dashed #b9b9b9;
+		margin: 0 15px;
+		position: relative;
+		&:hover, &:focus {
+		    cursor: pointer;
+		    color: @c-link;
+		    &::before {
+		    	color: #b9b9b9;
+		    }
+		}
+		&:first-child {
+			margin-left: 0;
+		}
+		&:nth-child(n+2) {
+			&::before {
+			    content: '/';
+			    display: block;
+				float: left;	
+				position: absolute;
+				top: 0;
+			    left: -20px;		    
+			}
+		}
+		@media (max-width: 768px) {
+			margin-bottom: 15px;
+			display: inline-block;
+			border: none;
+			float: none;
+		}
+
+	}
+	li.selected {
+		color: @c-link;
+		border: none;
+		&::before {
+			color: #b9b9b9;
+		}
+	}
+}
+#tabs {
+	li {
+		padding: 20px 0;
+		border-bottom: 1px solid @c-border;
+	}
+	a:hover, &:focus {
+	    text-decoration: none;
+	}
+	.post-date {
+		color: @c-main;
+		font: 14px @ff-r;
+		margin-bottom: 15px;
+		padding-left: 0;
+		&::before {
+			display: none;		    
+		}
+	}
+	.post-thumbnail {
+		padding: 0;
+		height: 112px;
+		overflow: hidden;
+		img {
+			.img-responsive;
+		}
+	}
+	.post-title {
+		display: table;
+		height: 112px;
+		span {
+			font: 20px @ff-r;
+			color: @c-main;
+			display: table-cell;
+			vertical-align: middle;
+		}
+		@media (max-width: 469px) {
+			padding-right: 0;
+		}
+	}
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+.tagcloud {
+	margin-left: 0;
+}
+.wp-polls .Buttons {
+	margin-top: 32px;
+	width: 115px;
+	height: 55px;
+	background-color: #79c7dd;
+	color: #fff;
+	font: 19px 'Open Sans';
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	position: relative;
+	&:active {
+		top: 2px;
+	}
+}
+.widget_polls-widget {
+	padding-top: 65px;
+	h3 {
+		line-height: 1;
+		text-align: left;
+		color: @gray-light;
+		margin-bottom: 20px;
+	}
+	.widget-title {
+		display: none;
+	}
+	
+}
+.wp-polls-ul {
+	margin: 0;
+	margin-bottom: 20px;
+	li {
+		border-bottom: 1px solid @c-border;
+		padding: 15px 0;
+	}
+	input[type="radio"] {
+		display: none;
+		&:checked + .custom-label .custom-radio {
+			position: relative;
+			&::before {
+			    content: '';
+			    display: block;
+			    position: absolute;
+			    top: 3px;
+			    left: 3px;
+			    background-color: @c-link;
+			    z-index: 20;
+			    width: 13px;
+			    height: 13px;
+			}
+		}
+	}
+	.custom-label {
+		width: 21px;
+		height: 21px;
+		cursor: pointer;
+	}
+	.custom-radio {
+		margin-right: 17px;
+		width: 21px;
+		height: 21px;
+		border: 1px solid @c-link;
+		float: left;
+		vertical-align: middle;
+		.slow;
+	}
+}
+
+.wp-polls-loading + ul {
+	display: none;
+}

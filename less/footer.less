@@ -1,0 +1,111 @@
+/*==============================
+=            FOOTER            =
+==============================*/
+.site-footer {
+	// margin-top: 150px;
+	padding: 75px 0;
+	border-top: 1px solid @c-border;
+	.link-about {
+		display: inline-block;
+		position: relative;
+		margin-bottom: 30px;
+		&:hover, &:focus {
+			text-decoration: none;
+			&::before {
+				opacity: 1;
+				transform: translateY(-10px);
+			}
+			&::after {
+				opacity: 1;
+				transform: translateY(10px);
+			}
+    	}
+    	&::before {
+    	    position: absolute;
+    	    left: 0;
+    	  	top: 0;
+    	    width: 100%;
+    	    height: 2px;
+    	    background: @c-main;
+    	    content: '';
+    	    opacity: 0;
+    	    transition: opacity 0.3s, transform 0.3s;
+    	    transform: translateY(10px);
+    	}
+    	&::after {
+    	    position: absolute;
+    	    left: 0;
+    	  	bottom: 0;
+    	    width: 100%;
+    	    height: 2px;
+    	    background: @c-main;
+    	    content: '';
+    	    opacity: 0;
+    	    transition: opacity 0.3s, transform 0.3s;
+    	    transform: translateY(-10px);
+    	}
+    }
+	h4 {
+		font-family: @ff-b;
+		font-size: 35px;
+		line-height: 35px;
+		text-transform: uppercase;
+	}
+	.about {
+		text-align: right;
+		padding-right: 54px;
+		@media (max-width: 479px) {
+			text-align: center;
+			padding-right: 0;
+		}
+	}
+	.email,
+	.copyright {
+		padding: 75px 0 0 50px;
+		font-family: @ff-l;
+		text-transform: uppercase;
+		a {
+			color: @c-main;
+		}
+	}
+	.email {
+		@media (max-width: 992px) {
+			padding-top: 0;
+		}
+		@media (max-width: 479px) {
+			text-align: center;
+			padding-top: 30px;
+			padding-left: 0;
+		}
+	}
+	.copyright {
+		@media (max-width: 992px) {
+			padding-top: 30px;
+		}
+		@media (max-width: 479px) {
+			text-align: center;
+			padding-left: 0;
+		}
+	}
+	span {
+		font: 16px/32px @ff-m;
+		color: @gray-darker;
+		display: block;
+	}
+}
+.twitter {
+	display: inline-block;
+	&::before {
+		float: left;
+	    content: '';
+	    display: block;
+	    background: url(img/twitter-icon.png) no-repeat center;
+	    width: 25px;
+	    height: 25px;
+	    background-size: 25px 25px;
+	    margin: 0 5px;
+	}
+}
+/*-----  End of FOOTER  ------*/
+
+
