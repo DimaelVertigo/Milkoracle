@@ -163,8 +163,8 @@ get_header(); ?>
 				
 		<div class="contact-form row">
 			<div class="contact-form-slogan">
-				<span>Let’s keep</span>
-				<span>in touch</span>
+				<span>Subscribe </span>
+				<span>for updates</span>
 			</div>
 			
 			<!-- Begin MailChimp Signup Form -->			
