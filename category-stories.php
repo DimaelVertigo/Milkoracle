@@ -50,7 +50,7 @@ get_header(); ?>
     }
     add_filter('posts_where', 'filter_where');
 
-    query_posts('posts_per_page=3&orderby=comment_count&order=DESC&cat=-61,62');
+    query_posts('posts_per_page=3&orderby=comment_count&order=DESC&cat=61,62');
 
     while (have_posts()): the_post(); ?>
 
